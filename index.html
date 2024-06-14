@@ -6,3 +6,29 @@
 <video width="320" height="240" controls>
   <source src="Vids.mp4" type="video/mp4">
 </video>
+
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RGB Background Changer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Change Background Color</h1>
+  <div>
+    <label for="r">R:</label>
+    <input type="number" id="r" name="r" min="0" max="255" value="255">
+  </div>
+  <div>
+    <label for="g">G:</label>
+    <input type="number" id="g" name="g" min="0" max="255" value="255">
+  </div>
+  <div>
+    <label for="b">B:</label>
+    <input type="number" id="b" name="b" min="0" max="255" value="255">
+  </div>
+  <button id="changeColorButton">Change Color</button>
+  <script src="popup.js"></script>
+</body>
+</html>
