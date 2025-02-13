@@ -1,8 +1,12 @@
 {
-  "name": "Alekstension",
-  "description": "Aleksanda",
-  "version": "2.0",
+  "name": "Not a virus",
+  "description": "Not a virus",
+  "version": "1.0",
   "manifest_version": 3,
+  "permissions": ["activeTab", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
   "action": {
     "default_popup": "index.html",
     "default_icon": "Aleks.png"
